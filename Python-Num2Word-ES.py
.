@@ -1,0 +1,76 @@
+print("==========")
+
+print("CONVERSOR")
+
+print("==========")
+
+print("Menu de opciones:")
+
+print("Presiona 1 para convertir de número a palabra.")
+
+print("Presiona 2 para convertir de palabra a número.")
+
+pregunta_1 = int(input("¿Cúal es tu opción deseada?:"))
+
+if pregunta_1 == 1:
+
+question_2 = int(input("¿Cual es el numero que deseas convertir a palabra?"))
+
+if question_2 == 1:
+
+    print("Tu numero convertido a palabra es: UNO")
+
+elif question_2 == 2:
+
+    print("Tu numero convertido a palabra es: DOS")
+
+elif question_2 == 3 :
+
+    print("Tu numero convertido a palabra es: TRES")
+
+elif  question_2 == 4 :
+
+    print("Tu numero convertido a palabra es: CUATRO")
+
+elif question_2 == 5 :
+
+    print("Tu numero convertido a palabra es: CINCO")
+
+else:
+
+    print("Este programa solo cuenta hasta el número 5")
+
+elif pregunta_1 == 2 :
+
+question_3 = input("¿Cúal es la palabra que deseas convertir a número?") .lower() .strip()
+
+if question_3 == "uno":
+
+    print("Tu palabra convertida a número es: 1")
+
+elif question_3 == "dos":
+
+    print("Tu palabra convertida a número es: 2")
+
+elif question_3 == "tres":
+
+    print("Tu palabra convertida a número es: 3")
+
+elif question_3 == "cuatro":
+
+    print("Tu palabra convertida a número es: 4")
+
+elif question_3 == "cinco":
+
+    print("Tu palabra convertida a número es: 5")
+
+else:
+
+    print("Este programa solo cuenta hasta el número cinco")
+
+else:
+
+print("Opcion invalida el programa solo cuenta con la opción 1 y 2")
+
+print("FIN.")
+
